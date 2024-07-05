@@ -54,7 +54,7 @@ const handleButtonClick = () => {
        { qrcode && 
           <div> 
                 <h1>{msg}</h1>
-                <QRCode value={qrcode}/>
+                <QRCode className='qrcode' value={qrcode}/>
           </div>
       }
     </div>
